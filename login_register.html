@@ -5,7 +5,7 @@
     <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
     <title>Iniciar sesi&oacute;n y Registrarse - Bootsnipp.com</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="Estilos/login_register.css">
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -63,23 +63,60 @@
                                     </div>
                                 </div>
                             </form>
-                            <form id="register-form" action="#" method="post"
+                            <form id="register-form" method="post"
                                   role="form" style="display: none;">
-                                <div class="form-group">
-                                    <input type="text" name="username" id="username" tabindex="1" class="form-control"
-                                           placeholder="Usuario" value="">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" name="email" id="email" tabindex="1" class="form-control"
-                                           placeholder="Correo electronico" value="">
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" name="password" id="password" tabindex="2"
-                                           class="form-control" placeholder="Contraseña">
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" name="confirm-password" id="confirm-password" tabindex="2"
-                                           class="form-control" placeholder="Confirmar contraseña">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" name="username" id="username" class="form-control"
+                                                   placeholder="Usuario" value="">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" name="email" id="email" class="form-control"
+                                                   placeholder="Correo electronico" value="">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" name="password" id="password"
+                                                   class="form-control" placeholder="Contraseña">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" name="confirm-password" id="confirm-password"
+                                                   class="form-control" placeholder="Confirmar contraseña">
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <select >
+                                                        <option>Hombre</option>
+                                                        <option>Mujer</option>
+                                                        <option disabled>Otros</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" name="name" id="name"
+                                                   class="form-control" placeholder="Nombre">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name="lastname" id="lastname"
+                                                   class="form-control" placeholder="Apellidos">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="date" name="birthdate" id="birthdate"
+                                                   class="form-control" placeholder="Fecha_Nac">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="number" name="number" id="number"
+                                                   class="form-control" placeholder="Número de teléfono">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="textarea" name="homeaddress" id="homeaddress"
+                                                   class="form-control" placeholder="Dirección">
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="row">
