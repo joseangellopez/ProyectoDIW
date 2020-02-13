@@ -106,15 +106,11 @@ select{
 }
 
 footer {
-    margin-top: 270px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .der-new{
     padding-left: 15px;
 }
-
-
-@media (max-width: 700px) {
-    footer {
-        margin-top: auto;
-    }
-  }
