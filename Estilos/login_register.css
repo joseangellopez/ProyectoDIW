@@ -2,13 +2,6 @@ body {
     padding-top: 90px;
 }
 
-.panel-login {
-    border-color: #ccc;
-    -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
-}
-
 .panel-login > .panel-heading {
     color: #00415d;
     background-color: #fff;
@@ -27,7 +20,7 @@ body {
 }
 
 .panel-login > .panel-heading a.active {
-    color: #029f5b;
+    color: #53A3CD;
     font-size: 18px;
 }
 
@@ -62,7 +55,7 @@ body {
 }
 
 .btn-login {
-    background-color: #59B2E0;
+    background-color: #76b5cd;
     outline: none;
     color: #fff;
     font-size: 14px;
@@ -70,7 +63,7 @@ body {
     font-weight: normal;
     padding: 14px 0;
     text-transform: uppercase;
-    border-color: #59B2E6;
+    border-color: black;
 }
 
 .btn-login:hover,
@@ -92,7 +85,7 @@ body {
 }
 
 .btn-register {
-    background-color: #1CB94E;
+    background-color: 	#76b5cd;
     outline: none;
     color: #fff;
     font-size: 14px;
@@ -100,12 +93,12 @@ body {
     font-weight: normal;
     padding: 14px 0;
     text-transform: uppercase;
-    border-color: #1CB94A;
+    border-color: black;
 }
 
 .btn-register:hover,
 .btn-register:focus {
     color: #fff;
-    background-color: #1CA347;
-    border-color: #1CA347;
+    background-color: #53A3CD;
+    border-color: #53A3CD;
 }
