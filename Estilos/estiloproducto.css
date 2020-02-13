@@ -1,0 +1,18 @@
+.precio{
+    display: block;
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.col-sm:nth-child(2n+1){
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.vuelta_lista{
+    margin: 20px 0px;
+    width: max-content;
+}
+.col-sm:nth-child(1n+2){
+    margin-top: 35PX;
+}
