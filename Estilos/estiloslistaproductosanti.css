@@ -1,0 +1,20 @@
+.card img {
+    width: auto ;
+    height: 330px;
+}
+h1 {
+   text-align: center;
+    color: white;
+}
+
+body {
+    cursor: url(../img/cabrapequena.png), auto;
+}
+a:link{ 
+    cursor: url(../img/cruzpeque.gif), auto;
+}
+body {
+    background-color: black;
+    font-family: Lucida Sans Unicode;
+    font-style: italic;
+}
