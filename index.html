@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--ESTILOS BOOSTRAP-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--ESTILOS INICIO-->
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Estilos/estiloindex.css">
     <title>Document</title>
-
 </head>
 <body>
-  <div class="container">
 
+  <div class="container">
 <!--NAVEGACIÓN-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white navegacion">
       <a class="navbar-brand" href="#">
             <img src="img/inicio/logo.png" width="60" height="60" alt="">
           </a>
@@ -93,7 +95,7 @@
         Cada paquete tiene el sello de la Oficina Dicesana y contiene 500 hostias.</p>
     </div>
     <div class="card-footer">
-      <a href="#" class="btn btn-primary btn-lg d-flex flex-row justify-content-center alig-items-center" role="button" aria-disabled="true">Ver mas</a>
+      <a href="#" class="btn btn-black btn-lg d-flex flex-row justify-content-center alig-items-center" role="button" aria-disabled="true">Ver mas</a>
     </div>
   </div>
   <div class="card">
@@ -104,7 +106,7 @@
         La casulla es un producto completamente realizado en italia en un laboratorio artesanal con años de experiencia, lo que garantiza un producto de calidad, tradición y belleza.</p>
     </div>
     <div class="card-footer">
-      <a href="#" class="btn btn-primary btn-lg d-flex flex-row justify-content-center alig-items-center" role="button" aria-disabled="true">Ver mas</a>
+      <a href="#" class="btn btn-black btn-lg d-flex flex-row justify-content-center alig-items-center" role="button" aria-disabled="true">Ver mas</a>
     </div>
   </div>
   <div class="card">
@@ -114,7 +116,7 @@
       <p class="card-text">Artículos para la Primera Comunión. La Primera Comunión o Eucaristía es uno de los momentos fundamentales de la vida de cada cristiano, porque por primera vez recibe el scramento del Cuerpo y la Sangre de Jesucristo.</p>
     </div>
     <div class="card-footer">
-      <a href="#" class="btn btn-primary btn-lg d-flex flex-row justify-content-center alig-items-center" role="button" aria-disabled="true">Ver mas</a>
+      <a href="#" class="btn btn-black btn-lg d-flex flex-row justify-content-center alig-items-center" role="button" aria-disabled="true">Ver mas</a>
     </div>
   </div>
   <div class="card">
@@ -124,10 +126,57 @@
       <p class="card-text">Gran servicio, envios muy rápidos y una atención al cliente increible lo recomiendo sin duda y las <strong>HOSTIAS</strong> de lo mejor, eso si... algunas pican mas que otras.</p>
     </div>
     <div class="card-footer">
-      <a href="#" class="btn btn-primary btn-lg d-flex flex-row justify-content-center alig-items-center" role="button" aria-disabled="true">Ver mas</a>
+      <a href="#" class="btn btn-black btn-lg d-flex flex-row justify-content-center alig-items-center" role="button" aria-disabled="true">Ver mas</a>
     </div>
   </div>
 </div>
+<!--PREGUNTAS FRECUENTES-->
+<br>
+<h2 class="text-center">Preguntas frecuentes</h2>
+
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header p-3 mb-2 bg-dark text-center" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          ¿Los productos tiene garantía española?
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body text-center">
+        Si al 100% Todos los productos que vendemos vienen siempre de distribuidores nacionales y por tanto, cumplen las legislaciones españolas en cuanto a garantía
+      </div>
+    </div>
+  </div>
+  <div class="card p-3 mb-2 text-center bg-dark ">
+      <h2 class="mb-0">
+        <button class="btn text-white collapsed  text-center " type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          ¿Puedo devolver mi compra si el producto está en perfecto estado, pero he cambiado de opinión?
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body text-center">
+        Por supuesto que sí. Es más, estás en tu derecho legal (derecho de desistimiento en compras por internet) Lo único que verificaremos, es que el producto esté en perfecto estado para devolverlo a la venta. Los precintos, embalajes y demás deberán estar en perfecto estado.
+        No te pediremos explicaciones y no son necesarias las excusas. Puedes devolver tu compra!      </div>
+    </div>
+  </div>
+  <div class="card ">
+    <div class="card-header p-3 mb-2 bg-dark text-center " id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn text-white collapsed  text-center" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          ¿Cuánto tardará mi compra en llegar?
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body  text-center">
+        Cada día salen todos los pedidos que entran antes de las 13h y se entregan a las 48-72 horas aproximadamente.
+      </div>
+    </div>
+  </div>
 <br>
 <!--FOOTER-->
 <footer>
