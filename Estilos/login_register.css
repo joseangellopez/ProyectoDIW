@@ -104,15 +104,17 @@ select{
 .date, .number{
     height: 45px;
 }
-/*
+
 footer {
-    background-color: black;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    color: white;
-}*/
+    margin-top: 270px;
+}
 .der-new{
     padding-left: 15px;
 }
+
+
+@media (max-width: 700px) {
+    footer {
+        margin-top: auto;
+    }
+  }
