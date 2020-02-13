@@ -105,3 +105,6 @@ body {
 select{
     width: 100%;
 }
+.date, .number{
+    height: 45px;
+}
