@@ -1,7 +1,3 @@
-body {
-    padding-top: 90px;
-}
-
 .panel-login > .panel-heading {
     color: #00415d;
     background-color: #fff;
@@ -107,4 +103,16 @@ select{
 }
 .date, .number{
     height: 45px;
+}
+/*
+footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+}*/
+.der-new{
+    padding-left: 15px;
 }
