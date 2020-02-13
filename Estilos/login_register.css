@@ -102,3 +102,6 @@ body {
     background-color: #53A3CD;
     border-color: #53A3CD;
 }
+select{
+    width: 100%;
+}
