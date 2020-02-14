@@ -13,8 +13,14 @@ body {
 a:link{ 
     cursor: url(../img/cruzpeque.gif), auto;
 }
+
 body {
     background-color: black;
     font-family: Lucida Sans Unicode;
     font-style: italic;
+}
+.card:hover{
+    -webkit-box-shadow: inset 0px 0px 129px 0px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 129px 0px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 129px 0px rgba(0,0,0,1);
 }
