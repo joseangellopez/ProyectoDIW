@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+
 body{
     font-family: 'Lato', sans-serif;
 }
+h1{
+    font-family: 'Sriracha', cursive;
+}
+
 .carrito{
     position: relative;
     left: 25%;
