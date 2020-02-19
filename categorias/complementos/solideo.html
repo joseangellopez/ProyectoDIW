@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="Productos">
     <title>solidep</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -19,43 +21,39 @@
 
     <div class="container">
         <!--NAVEGACIÓN-->
-<nav class="navbar navbar-expand-lg navbar-light bg-white navegacion ">
-    <a class="navbar-brand" href="#">
-        <img src="../../img/inicio/logo.png" width="60" height="60" alt="">
-    </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-dark my-2 my-sm-0" type="submit">Buscar</button>
-            </form>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="#">Productos</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#">Categorías</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
-            </li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white navegacion ">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="../../img/inicio/logo.png" width="60" height="60" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-dark my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../../index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
 
-              <li class="nav-item  carrito ">
-                <a class="nav-link " href="../../login_register.html">Login/Registro</a>
-              </li>               
-            <a class="navbar-brand carrito my-2 my-sm-0 l-m8 carrito" href="#"><i class="material-icons">add_shopping_cart</i>Carrito </a>
-            
-        </ul>
-        
-      </div>
-</nav>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../lista_categoria.html">Categorías</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../contacto.html">Contacto</a>
+                    </li>
 
+                    <li class="nav-item  carrito ">
+                        <a class="nav-link " href="../../login_register.html">Login/Registro</a>
+                    </li>
+                    <a class="navbar-brand carrito my-2 my-sm-0 l-m8 carrito" href="#"><i class="material-icons">add_shopping_cart</i>Carrito </a>
+
+                </ul>
+
+            </div>
+        </nav>
         <!-- producto -->
         <div class="row">
             <div class="col-sm">
@@ -68,10 +66,10 @@
 
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="../../img/solideo.jpg" alt="First slide">
+                            <img class="d-block w-100" src="../../img/complementos/solideo.jpg" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="../../img/solideo_2.jpg" alt="Second slide">
+                            <img class="d-block w-100" src="../../img/complementos/solideo_2.jpg" alt="Second slide">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -97,7 +95,7 @@
 
                 <!-- producto -->
                 <div class="media border p-3">
-                    <img src="../../img/cruzsatanica.jpg" alt="cruz satanica" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                    <img src="../../img/satanica/cruzsatanica.jpg" alt="cruz satanica" class="mr-3 mt-3 rounded-circle" style="width:60px;">
                     <div class="media-body">
                         <h4>cruz satanica</h4>
                         <p>Precio: <strong>50€</strong></p>
@@ -107,7 +105,7 @@
 
                 <!-- producto -->
                 <div class="media border p-3">
-                    <img src="../../img/vinobendito.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                    <img src="../../img/comida/vinobendito.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
                     <div class="media-body">
                         <h4>Vino bendito</h4>
                         <p>Precio: <strong>50€</strong></p>
@@ -118,7 +116,7 @@
 
                 <!-- producto -->
                 <div class="media border p-3">
-                    <img src="../../img/cuadro.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                    <img src="../../img/regalos/cuadro.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
                     <div class="media-body">
                         <h4>Ecce homo</h4>
                         <p>Precio: <strong>50€</strong></p>
@@ -153,24 +151,25 @@
             <nav class="navbar navbar-light bg-white">
                 <div class="row col-3">
                     <a class="navbar-brand ml-2" href="https://es-es.facebook.com/FranciscusPP/" target="_bank">
-                        <img src="https://i.pinimg.com/originals/b7/63/69/b763699fd1fa3bfb374442593ae642e1.png" width="35" height="35" >
+                        <img src="../../img/inicio/f.png" alt="facebook" width="35" height="35" >
                     </a>
                     <a class="navbar-brand mt-0" href="https://twitter.com/Pontifex_es?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor/" target="_bank">
-                        <img src="https://www.freepngimg.com/thumb/logo/62442-twitter-computer-black-icons-free-frame.png" width="35" height="25" >
+                        <img src="../../img/inicio/t.png" alt="twitter" width="35" height="25" >
                     </a>
                 </div>
                 <div class="row col-5">
-                    <a href="#" class="text-decoration-none text-center m-2 text-dark "> Avisos legales </a>
-                    <a href="#" class="text-decoration-none text-center m-2 text-dark"> Política de cookies</a>
-                    <a href="#" class="text-decoration-none text-center m-2 text-dark"> Derechos de uso </a>
+                    <a href="../../legal/avisos_legales.html" class="text-decoration-none text-center m-2 text-dark "> Avisos legales </a>
+                    <a href="../../legal/politica_cookies.html" class="text-decoration-none text-center m-2 text-dark"> Política de cookies</a>
+                    <a href="../../legal/derechos_uso.html" class="text-decoration-none text-center m-2 text-dark"> Derechos de uso </a>
                 </div>
                 <div class="row col-3 git">
                     <a class="navbar-brand" href="https://github.com/joseangellopez/ProyectoDIW" target="_bank">
-                        <img src="https://miro.medium.com/max/1125/1*dDNpLKu_oTLzStsDTnkJ-g.png" width="140" height="50">
+                        <img src="../../img/inicio/g.png" alt="git" width="140" height="50">
                     </a>
                 </div>
             </nav>
         </footer>
+
     </div>
 
 
