@@ -25,3 +25,6 @@ body {
     -moz-box-shadow: inset 0px 0px 129px 0px rgba(0,0,0,1);
     box-shadow: inset 0px 0px 129px 0px rgba(0,0,0,1);
 }
+footer a {
+    font-size: 15px;
+}
