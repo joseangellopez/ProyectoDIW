@@ -105,12 +105,7 @@ select{
     height: 45px;
 }
 
-footer {
-    background-color: black;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+
 .der-new{
     padding-left: 15px;
 }
