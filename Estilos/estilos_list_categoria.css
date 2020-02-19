@@ -1,27 +1,55 @@
-.card{
+.card {
     border: #76b5cd 1px solid;
 }
-.complementos:hover{
-    -webkit-box-shadow: 0px 1px 70px 0px rgba(32,243,250,1);
-    -moz-box-shadow: 0px 1px 70px 0px rgba(32,243,250,1);
-    box-shadow: 0px 1px 70px 0px rgba(32,243,250,1);
+
+.complementos:hover {
+    -webkit-box-shadow: 0px 1px 70px 0px rgba(32, 243, 250, 1);
+    -moz-box-shadow: 0px 1px 70px 0px rgba(32, 243, 250, 1);
+    box-shadow: 0px 1px 70px 0px rgba(32, 243, 250, 1);
 }
-.regalos:hover{
-    -webkit-box-shadow: 0px 1px 70px 0px rgba(32,243,0,1);
-    -moz-box-shadow: 0px 1px 70px 0px rgba(32,243,0,1);
-    box-shadow: 0px 1px 70px 0px rgba(32,243,0,1);
+
+.comida:hover {
+    -webkit-box-shadow: 0px 1px 70px 0px rgba(250, 128, 0, 1);
+    -moz-box-shadow: 0px 1px 70px 0px rgba(250, 128, 0, 1);
+    box-shadow: 0px 1px 70px 0px rgba(250, 128, 0, 1);
 }
-.comida:hover{
-    -webkit-box-shadow: 0px 1px 70px 0px rgba(250,128,0,1);
-    -moz-box-shadow: 0px 1px 70px 0px rgba(250,128,0,1);
-    box-shadow: 0px 1px 70px 0px rgba(250,128,0,1);
+
+.regalos:hover {
+    -webkit-box-shadow: 0px 1px 70px 0px rgba(32, 243, 0, 1);
+    -moz-box-shadow: 0px 1px 70px 0px rgba(32, 243, 0, 1);
+    box-shadow: 0px 1px 70px 0px rgba(32, 243, 0, 1);
 }
-.demonio:hover{
-    -webkit-box-shadow: 0px 1px 70px 0px rgba(243,23,0,1);
-    -moz-box-shadow: 0px 1px 70px 0px rgba(243,23,0,1);
-    box-shadow: 0px 1px 70px 0px rgba(243,23,0,1);
+
+
+
+.demonio:hover {
+    -webkit-box-shadow: 0px 1px 70px 0px rgba(243, 23, 0, 1);
+    -moz-box-shadow: 0px 1px 70px 0px rgba(243, 23, 0, 1);
+    box-shadow: 0px 1px 70px 0px rgba(243, 23, 0, 1);
 }
+
 .card img {
-    width: auto ;
+    width: auto;
     height: 300px;
+}
+
+.complementos .card-title {
+    -webkit-text-fill-color: rgba(32, 243, 250, 1);
+    -webkit-text-stroke: 0.3px black;
+}
+
+.comida .card-title {
+    -webkit-text-fill-color: rgba(250, 128, 0, 1);
+    -webkit-text-stroke: 0.3px black;
+}
+
+
+.regalos .card-title {
+    -webkit-text-fill-color: rgba(32, 243, 0, 1);
+    -webkit-text-stroke: 0.3px black;
+}
+
+.demonio .card-title {
+    -webkit-text-fill-color: rgba(243, 23, 0, 1);
+    -webkit-text-stroke: 0.3px black;
 }
