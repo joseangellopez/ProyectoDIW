@@ -2,8 +2,9 @@
     width: auto ;
     height: 330px;
 }
-h1 {
-   text-align: center;
+#Titulo {
+    text-align: center;
+    font-size: xx-large;
     color: white;
 }
 
