@@ -12,6 +12,20 @@ h1{
     left: 25%;
 
 }
+.enlaces p{
+    font-size: 15px;
+}
+.enlaces a{
+    text-decoration: none;
+    color: black;
+
+    
+}
+.enlaces a:hover{
+    color: blue;
+    font-size: 16px;
+
+}
 @media (max-width: 1199px) {
 
     .carrito{
