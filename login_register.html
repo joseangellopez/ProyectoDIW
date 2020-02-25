@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8">
     <title>Iniciar sesi&oacute;n y Registrarse</title>
@@ -11,218 +12,283 @@
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Estilos/estiloindex.css">
     <link rel="stylesheet" type="text/css" href="Estilos/login_register.css">
-    <meta name="description" content="J-Esicristo, la mejor página de articulos religiosos"/>
-    <link rel="icon" type="image/png" href="img/inicio/logo.png" >
+    <meta name="description" content="J-Esicristo, la mejor página de articulos religiosos" />
+    <link rel="icon" type="image/png" href="img/inicio/logo.png">
 </head>
+
 <body>
-<div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white navegacion ">
-        <a name="logo" class="navbar-brand" href="#">
-            <img src="img/inicio/logo.png" width="60" height="60" alt="logo página">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-dark my-2 my-sm-0" type="submit">Buscar</button>
-                </form>
-                <li class="nav-item active">
-                    <a name="Inicio" class="nav-link" href="index.html">Inicio <span
-                            class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a name="Categorías" class="nav-link" href="categorias/lista_categoria.html">Categorías</a>
-                </li>
-                <li class="nav-item active">
-                    <a name="Contactos" class="nav-link" href="contacto.html">Contacto</a>
-                </li>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white navegacion ">
+            <a name="logo" class="navbar-brand" href="#">
+                <img src="img/inicio/logo.png" width="60" height="60" alt="logo página">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-dark my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                    <li class="nav-item active">
+                        <a name="Inicio" class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a name="Categorías" class="nav-link" href="categorias/lista_categoria.html">Categorías</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a name="Contactos" class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
 
-                <li class="nav-item  carrito active">
-                    <a name="Registro" class="nav-link " href="#">Login/Registro</a>
-                </li>
-                <a name="Carrito" class="navbar-brand carrito my-2 my-sm-0 l-m8 carrito" href="#"><i
-                        class="material-icons">add_shopping_cart</i>Carrito
-                </a>
+                    <li class="nav-item  carrito active">
+                        <a name="Registro" class="nav-link " href="#">Login/Registro</a>
+                    </li>
+                    <a name="Carrito" class="navbar-brand carrito my-2 my-sm-0 l-m8 carrito" href="#"><i class="material-icons">add_shopping_cart</i>Carrito
+                    </a>
 
-            </ul>
+                </ul>
 
-        </div>
-    </nav>
-    <br>
-    <br>
-    <br>
-    <div class="row">
+            </div>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <div class="row">
 
-        <div class="col-md-6 offset-md-3 shadow ">
-            <div class="panel panel-login ">
-                <div class="panel-heading">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-sm-5">
-                            <a name="i-sesion" href="#" class="active" id="login-form-link">Iniciar sesión</a>
+            <div class="col-md-10 offset-md-1 shadow ">
+                <div class="panel panel-login ">
+                    <div class="panel-heading">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-sm-5">
+                                <a name="i-sesion" href="#" class="active" id="login-form-link">Iniciar sesión</a>
+                            </div>
+                            <div class="col-sm-5">
+                                <a name="registro" href="#" id="register-form-link">Regístrate ahora</a>
+                            </div>
                         </div>
-                        <div class="col-sm-5">
-                            <a name="registro" href="#" id="register-form-link">Regístrate ahora</a>
-                        </div>
+                        <br>
                     </div>
-                    <br>
-                </div>
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <form id="login-form" action="#" method="post" role="form"
-                                  style="display: block;">
-                                <div class="form-group">
-                                    <input type="text" name="username" id="username" class="form-control"
-                                           placeholder="Usuario">
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" name="password" id="password"
-                                           class="form-control" placeholder="Contraseña">
-                                </div>
-                                <div class="form-group text-center">
-                                    <input type="checkbox" class="" name="remember" id="remember">
-                                    <label for="remember"> Recordarme</label>
-                                </div>
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-sm-6 offset-sm-3">
-                                            <input type="submit" name="login-submit" id="login-submit"
-                                                   class="form-control btn btn-login" value="Iniciar sesión">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <div class="text-center">
-                                                <a name="olv-contrasena" href="#"
-                                                   class="forgot-password">¿Has olvidado tu contraseña?</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                            <form id="register-form" method="post"
-                                  role="form" style="display: none;">
-                                <div class="row">
-                                    <div class="col-md-6">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <form id="login-form" action="#" method="post" role="form" style="display: block;">
+                                    <fieldset>
                                         <div class="form-group">
-
-                                            <input type="text" name="username" id="username" class="form-control"
-                                                   placeholder="Usuario" value="">
-                                        </div>
-                                        <div class="form-group">
-
-                                            <input type="email" name="email" id="email" class="form-control"
-                                                   placeholder="Correo electronico" value="">
-                                        </div>
-                                        <div class="form-group">
-
-                                            <input type="password" name="password" id="password"
-                                                   class="form-control" placeholder="Contraseña">
-                                        </div>
-                                        <div class="form-group">
-
-                                            <input type="password" name="confirm-password" id="confirm-password"
-                                                   class="form-control" placeholder="Confirmar contraseña">
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <select class="form-control">
-                                                        <option>Hombre</option>
-                                                        <option>Mujer</option>
-                                                        <option>Otros</option>
-                                                    </select>
+                                            <div class="row align-items-center">
+                                                <label class="d-none d-sm-block d-lg-none">&nbsp;&nbsp;Usuario:</label>
+                                                <div class="col-md-2 ">
+                                                    <label class="d-none d-sm-none d-md-none d-lg-block"><u>Usuario:</u></label>
+                                                </div>
+                                                <div class="col-md-10    offset-xs-2">
+                                                    <input type="text" name="username" id="username" class="form-control" placeholder="Usuario">
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
                                         <div class="form-group">
-
-                                            <input type="text" name="name" id="name"
-                                                   class="form-control" placeholder="Nombre">
-                                        </div>
-                                        <div class="form-group">
-
-                                            <input type="text" name="lastname" id="lastname"
-                                                   class="form-control" placeholder="Apellidos">
-                                        </div>
-                                        <div class="form-group">
-
-                                            <input type="date" name="birthdate" id="birthdate"
-                                                   class="form-control date" placeholder="Fecha_Nac">
-                                        </div>
-                                        <div class="form-group">
-
-                                            <input type="number" name="number" id="number"
-                                                   class="form-control number" placeholder="Número de teléfono">
-                                        </div>
-                                        <div class="form-group">
-
-                                            <input type="textarea" name="homeaddress" id="homeaddress"
-                                                   class="form-control" placeholder="Dirección">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="offset-sm-3">
-                                            <div class="form-group der-new">
-
-                                                <input type="checkbox">
-                                                <label>Acepto los <a name="derechos" href="#">Derechos de
-                                                    Uso</a></label>
-                                                <br>
-
-                                                <input type="checkbox">
-                                                <label>Acepto recibir información de nuevos
-                                                    productos</label>
+                                            <div class="row align-items-center">
+                                                <label class="d-none d-sm-block d-lg-none">&nbsp;&nbsp;Contraseña:</label>
+                                                <div class="col-md-2 ">
+                                                    <label class="d-none d-sm-none d-md-none d-lg-block"><u>Contraseña:</u></label>
+                                                </div>
+                                                <div class="col-md-10    offset-xs-2">
+                                                    <input type="password" name="password" id="password" class="form-control" placeholder="Contraseña">
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-sm-6 offset-sm-3">
-
-                                            <input type="submit" name="register-submit" id="register-submit"
-                                                   class="form-control btn btn-register"
-                                                   value="Crear cuenta">
+                                        <div class="form-group text-center">
+                                            <input type="checkbox" class="" name="remember" id="remember">
+                                            <label for="remember"> Recordarme</label>
                                         </div>
-                                    </div>
-                                </div>
-                            </form>
+                                        <div class="form-group">
+                                            <div class="row">
+                                                <div class="col-sm-6 offset-sm-3">
+                                                    <input type="submit" name="login-submit" id="login-submit" class="form-control btn btn-login" value="Iniciar sesión">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="text-center">
+                                                        <a name="olv-contrasena" href="#" class="forgot-password">¿Has olvidado tu contraseña?</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                                <form id="register-form" method="post" role="form" style="display: none;">
+                                    <fieldset>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <div class="row align-items-center">
+                                                        <label class="d-none d-sm-block d-lg-none">&nbsp;&nbsp;Usuario:</label>
+                                                        <div class="col-md-2">
+                                                            <label class="d-none d-sm-none d-md-none d-lg-block"><u>Usuario:</u></label>
+                                                        </div>
+                                                        <div class="col-md-9 offset-md-1">
+                                                            <input type="text" name="username" id="username" class="form-control" placeholder="Usuario" value="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="row align-items-center">
+                                                        <label class="d-none d-sm-block d-lg-none">&nbsp;&nbsp;Correo Electrónico:</label>
+                                                        <div class="col-md-2">
+                                                            <label class="d-none d-sm-none d-md-none d-lg-block"><u>Correo Electrónico:</u></label>
+                                                        </div>
+                                                        <div class="col-md-9 offset-md-1">
+                                                            <input type="email" name="email" id="email" class="form-control" placeholder="Correo electronico" value="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="row align-items-center">
+                                                        <label class="d-none d-sm-block d-lg-none">&nbsp;&nbsp;Contraseña:</label>
+                                                        <div class="col-md-2">
+                                                            <label class="d-none d-sm-none d-md-none d-lg-block"><u>Contraseña:</u></label>
+                                                        </div>
+                                                        <div class="col-md-9 offset-md-1">
+                                                            <input type="password" name="password" id="password" class="form-control" placeholder="Contraseña">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="row align-items-center">
+                                                        <label class="d-none d-sm-block d-lg-none">&nbsp;&nbsp;Confirmar Contraseña:</label>
+                                                        <div class="col-md-2">
+                                                            <label class="d-none d-sm-none d-md-none d-lg-block"><u>Confirmar Contraseña:</u></label>
+                                                        </div>
+                                                        <div class="col-md-9 offset-md-1">
+                                                            <input type="password" name="confirm-password" id="confirm-password" class="form-control" placeholder="Confirmar contraseña">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="row align-items-center">
+                                                        <label class="d-none d-sm-block d-lg-none">&nbsp;&nbsp;Género</label>
+                                                        <div class="col-md-2">
+                                                            <label class="d-none d-sm-none d-md-none d-lg-block"><u>Género:</u></label>
+                                                        </div>
+                                                        <div class="col-md-9 offset-md-1">
+                                                            <select class="form-control">
+                                                                <option>Hombre</option>
+                                                                <option>Mujer</option>
+                                                                <option>Otros</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <div class="row align-items-center">
+                                                        <label class="d-none d-sm-block d-lg-none">&nbsp;&nbsp;Nombre:</label>
+                                                        <div class="col-md-2">
+                                                            <label class="d-none d-sm-none d-md-none d-lg-block"><u>Nombre:</u></label>
+                                                        </div>
+                                                        <div class="col-md-10">
+                                                            <input type="text" name="name" id="name" class="form-control" placeholder="Nombre">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="row align-items-center">
+                                                        <label class="d-none d-sm-block d-lg-none">&nbsp;&nbsp;Apellidos:</label>
+                                                        <div class="col-md-2">
+                                                            <label class="d-none d-sm-none d-md-none d-lg-block"><u>Apellidos:</u></label>
+                                                        </div>
+                                                        <div class="col-md-10">
+                                                            <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Apellidos">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="row align-items-center">
+                                                        <label class="d-none d-sm-block d-lg-none">&nbsp;&nbsp;Fecha de Nacimiento:</label>
+                                                        <div class="col-md-2">
+                                                    <label class="d-none d-sm-none d-md-none d-lg-block"><u>Fecha de Nacimiento:</u></label>
+                                                        </div>
+                                                        <div class="col-md-9 offset-md-1">
+                                                    <input type="date" name="birthdate" id="birthdate" class="form-control date" placeholder="Fecha_Nac">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="row align-items-center">
+                                                        <label class="d-none d-sm-block d-lg-none">&nbsp;&nbsp;Teléfono:</label>
+                                                        <div class="col-md-2">
+                                                    <label class="d-none d-sm-none d-md-none d-lg-block"><u>Teléfono:</u></label>
+                                                        </div>
+                                                        <div class="col-md-10">
+                                                    <input type="number" name="number" id="number" class="form-control number" placeholder="Número de teléfono">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="row align-items-center">
+                                                        <label class="d-none d-sm-block d-lg-none">&nbsp;&nbsp;Dirección:</label>
+                                                        <div class="col-md-2">
+                                                    <label class="d-none d-sm-none d-md-none d-lg-block"><u>Dirección:</u></label>
+                                                        </div>
+                                                        <div class="col-md-10">
+                                                    <input type="textarea" name="homeaddress" id="homeaddress" class="form-control" placeholder="Dirección">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="row">
+                                                <div class="offset-sm-3">
+                                                    <div class="form-group der-new">
+
+                                                        <input type="checkbox">
+                                                        <label>Acepto los <a name="derechos" href="#">Derechos de
+                                                                Uso</a></label>
+                                                        <br>
+
+                                                        <input type="checkbox">
+                                                        <label>Acepto recibir información de nuevos
+                                                            productos</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="row">
+                                                <div class="col-sm-6 offset-sm-3">
+
+                                                    <input type="submit" name="register-submit" id="register-submit" class="form-control btn btn-register" value="Crear cuenta">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <br>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>  
-    <script type="text/javascript" src="js/login_register.js"></script>
+        <br>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/login_register.js"></script>
 
+    </div>
 </body>
 <footer>
     <nav class="navbar navbar-light bg-white">
         <div class="row col-3">
             <a name="facebook" class="navbar-brand ml-2" href="https://es-es.facebook.com/FranciscusPP/" target="_bank">
-                <img src="img/inicio/f.png" width="35"
-                     height="35" alt="logo facebook">
+                <img src="img/inicio/f.png" width="35" height="35" alt="logo facebook">
             </a>
-            <a name="twitter" class="navbar-brand mt-0"
-               href="https://twitter.com/Pontifex_es?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor/"
-               target="_bank">
-                <img src="img/inicio/t.png"
-                     width="35" height="25" alt="logo twitter">
+            <a name="twitter" class="navbar-brand mt-0" href="https://twitter.com/Pontifex_es?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor/" target="_bank">
+                <img src="img/inicio/t.png" width="35" height="25" alt="logo twitter">
             </a>
         </div>
         <div class="row col-5">
@@ -235,12 +301,12 @@
         </div>
         <div class="row col-3 git">
             <a name="github" class="navbar-brand" href="https://github.com/joseangellopez/ProyectoDIW" target="_bank">
-                <img src="img/inicio/g.png" width="140" height="50"
-                     alt="logo github">
+                <img src="img/inicio/g.png" width="140" height="50" alt="logo github">
             </a>
         </div>
     </nav>
 </footer>
 </div>
+
 
 </html>
