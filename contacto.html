@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="Estilos/estiloindex.css">
     <link rel="stylesheet" href="Estilos/estilocontactos.css">
         <link rel="icon" type="image/png" href="img/inicio/logo.png" >
-
     <title>Contacto</title>
 </head>
 
@@ -64,25 +63,41 @@
         <div class="col-md-6">
                 <form  method="POST">
 
-                        <div class="form-group">
-                            <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
-                        </div>
+                    <label class="d-none d-sm-block d-lg-none">Nombre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+                            <div class="input-group">
+                                <label class="d-none d-sm-none d-md-none d-lg-block">Nombre:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+                                <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                            </div>
 
-                        <div class="form-group">
+<br>
+                    <label class="d-none d-sm-block d-lg-none">Correo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+
+                    <div class="input-group">
+                            <label class="d-none d-sm-none d-md-none d-lg-block">Correo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+
                             <input id="lname" name="name" type="text" placeholder="Apellidos" class="form-control">
 
                         </div>
+                    <br>
+                    <label class="d-none d-sm-block d-lg-none">Apellidos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
 
-                        <div class="form-group">
+                        <div class="input-group">
+                            <label class="d-none d-sm-none d-md-none d-lg-block">Apellidos:&nbsp;&nbsp; </label>
+
                             <input id="email" name="email" type="text" placeholder="Correo electronico"
                                    class="form-control">
                         </div>
+                    <br>
 
+                    <label class="d-none d-sm-block d-lg-none">Asunto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
 
-                        <div class="form-group">
-                                <textarea class="form-control" id="message" name="Asunto"
+                        <div class="input-group">
+                            <label class="d-none d-sm-none d-md-none d-lg-block">Asunto:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+
+                            <textarea class="form-control" id="message" name="Asunto"
                                           placeholder="Asunto del mensaje" rows="7"></textarea>
                         </div>
+                    <br>
 
 
                         <div class="form-group text-center">
